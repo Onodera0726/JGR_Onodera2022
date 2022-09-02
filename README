@@ -1,0 +1,15 @@
+This repository includes "simulation output data" presented in the research article entitled
+"Quantitative evaluation of the lunar seismic scattering and comparison between the Earth, Mars, and the Moon"
+by Onodera et al.
+
+In Simulation_data directory, simulated seismic waves are stored in csv format.
+The first column is time from the origin time, the second is the vertical velocity (nm/s),
+the third is the radial velocity (nm/s), and the forth is the transverse velocity (nm/s).
+
+The synthetic time series was donwsampled to 6.6 Hz so that one can directory compare them
+with the Apollo long-period data. Also, the bandpass filtering between 0.3 and 1.5 Hz 
+with 4-th order Butterworth fileter was applied to all synthetics.
+
+In case you use these data in your research project, please cite the paper below:
+Onodera, K., Kawamura, T., Tanaka, S., Ishihara, Y., Maeda, T. (202*), Quantitative evaluation of the lunar seismic scattering and comparison between the Earth, Mars, and the Moon, 
+JGR Planets, *****.
